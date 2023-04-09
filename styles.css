@@ -1,0 +1,239 @@
+.header-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+}
+
+.header-text h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.header-text h2 {
+  font-size: 1.5rem;
+  margin-top: 0;
+  font-style: italic;
+}
+
+.presentation {
+  background-color: #fff;
+  padding: 40px 0;
+}
+
+.presentation h2 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.presentation p {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.presentation a {
+  display: block;
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background-color: #5f8b2e;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 auto;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+nav h2 {
+  margin-top: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+ul {
+  text-align: center;
+}
+
+nav #test li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav input[type="submit"] {
+  margin-top: 5px;
+}
+
+.bird-list {
+  margin-top: 20px;
+}
+
+.bird-list ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.bird-list li {
+  margin-bottom: 5px;
+}
+
+#oiseaux {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+}
+
+#oiseaux a {
+  margin-right: 50px;
+  margin-left: 150px;
+}
+
+#oiseaux h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+
+}
+
+#oiseaux ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#oiseaux li {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.species-presentation {
+  background-color: #f8f8f8;
+  padding: 50px 0;
+}
+
+.species-presentation h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.species-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.species-card {
+  width: 350px;
+  margin: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.species-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.species-card h3 {
+  font-size: 24px;
+  margin: 20px;
+}
+
+.species-card p {
+  margin: 20px;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.my-birds {
+  padding: 50px 0;
+  background-color: #f2f2f2;
+}
+
+.my-birds h2{
+   margin: 20px;
+}
+.bird-card {
+  display: flex;
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.bird-card img {
+  width: 300px;
+  object-fit: cover;
+}
+
+.bird-info {
+  padding: 20px;
+}
+
+.bird-info h3 {
+  margin-top: 0;
+}
+
+.bird-info button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.bird-info button:hover {
+  background-color: #3e8e41;
+}
+
+.footer {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-links a {
+  color: #555;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #000;
+}
+
+.footer-text {
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+}
